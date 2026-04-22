@@ -39,8 +39,8 @@ const html = ` 1 <!doctype html>
 
 IFRAME.srcdoc = escapePolicy.createHTML(html);
 IFRAME.allowFullscreen = true;
-IFRAME.style.width = "900px";
-IFRAME.style.height = "700px";
+IFRAME.style.width = "100%";
+IFRAME.style.height = "100%";
 
 
 ytVideoPlayer.replaceWith(IFRAME);
