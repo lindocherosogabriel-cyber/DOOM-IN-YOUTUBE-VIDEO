@@ -1,6 +1,3 @@
-const escapePolicy = window.trustedTypes.createPolicy("default", {
-  createHTML: (string) => string // Aqui você poderia filtrar o HTML, mas vamos passar direto
-});
 
 const ytVideoPlayer = document.querySelector(".video-stream");
 
